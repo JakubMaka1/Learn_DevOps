@@ -1,0 +1,7 @@
+ubuntu_2 ansible_host=192.168.144.40 ansible_user=root ansible_ssh_private_key_file=/root/.ssh/id_rsa ansible_sudo=yes ansible_become=yes
+ubuntu_3 ansible_host=192.168.144.42 ansible_user=root ansible_ssh_private_key_file=/root/.ssh/id_rsa ansible_sudo=yes ansible_become=yes
+
+[VirtualBox]
+ubuntu_2
+ubuntu_3
+
